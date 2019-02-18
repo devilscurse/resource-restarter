@@ -9,7 +9,7 @@ A little resource, I've made to restart a resource automatically after a certain
 2. Config the 'server.lua' to the resource you want to restart and how long between.
 3. Add 'start resource-restarter' into your server.cfg.
 
-4. Add this at the top of your 'server.cfg' under your endpoints: 
+4. Add this at the top of your 'server.cfg' under your endpoints:                          
 #els restarter
 add_ace resource.resource-restarter command.restart allow
 add_ace resource.resource-restarter command.start allow
