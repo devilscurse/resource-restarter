@@ -10,7 +10,7 @@ A little resource, I've made to restart a resource automatically after a certain
 3. Add 'start resource-restarter' into your 'server.cfg'.
 
 4. Add this at the top of your 'server.cfg' under your endpoints:                          
-#els restarter                                                                                 
+#Automatic Resource Restarter                                                                                
 add_ace resource.resource-restarter command.restart allow                                      
 add_ace resource.resource-restarter command.start allow                                       
 add_ace resource.resource-restarter command.stop allow                                        
