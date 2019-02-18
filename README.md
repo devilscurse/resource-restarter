@@ -18,6 +18,5 @@ add_ace resource.resource-restarter command.stop allow
 6. Start your server up and enjoy!
 
 Optional:
-5. Add this to the top of the resource's 'client.lua' and config the message: 
+5. Add this to the top of the resource's 'client.lua' then config the message and/or colour: 
 TriggerEvent("chatMessage", "", { 255, 0, 0 }, "your-resource is currently being restarted. You may experience minor lag!"
-                                   R , G, B
